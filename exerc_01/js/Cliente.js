@@ -42,6 +42,7 @@ export default class Cliente {
     // Método para obter o primeiro nome
     get getPrimeiroNome() {
         let partesNome = this.#nomeCompleto.trim().split(" ");
+        console.log(partesNome);
         return partesNome[0];
     }
 }
